@@ -1,6 +1,6 @@
 # QHemoguard
 
-QHemoguard is an exploratory quantum machine learning project for classifying hemoglobin electrophoresis data. It uses parameterized quantum circuits with Qiskit and compares experiments using selected hemoglobin features and CBC-only features.
+QHemoguard is an exploratory quantum machine learning project for classifying thallasemia carriers using CBC data. It uses parameterized quantum circuits with Qiskit and compares experiments using selected hemoglobin features and CBC-only features.
 
 ## Project contents
 
@@ -52,7 +52,6 @@ To run the notebooks, obtain the dataset through its authorized source and confi
 data/Hb. Electrophoresis Data from 13-08-2020 to 24-06-2024 Preprocessed Train All with HB.csv
 ```
 
-Do not upload patient-level data, identifying information, or restricted research data to GitHub. If you cannot legally or ethically redistribute the dataset, share only the code and provide access instructions through the approved data custodian or institution.
 
 ## Running the experiments
 
@@ -69,6 +68,4 @@ Do not upload patient-level data, identifying information, or restricted researc
 
 The experiments use local Qiskit Aer simulation by default. Runtime and results can vary because the training process uses simulated measurement shots and randomized seeds.
 
-## License
 
-The source code is available under the MIT License. The dataset is not covered by this repository's code license; use it only under the terms provided by its owner or data custodian.
